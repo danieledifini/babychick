@@ -1,0 +1,36 @@
+:root {
+    --white: #ffffff;
+    --black: #000;
+
+    --brown:#9E4649;
+    --brown2:#ECAE9E;
+    --brown3:#CF877D;
+
+    --brownlight:#F9E8E1;
+    --brownlight2:#F8E7E1;
+    --brownlight3:#FAEDE9;
+    --brownlight4:#F5D7CA;
+    
+    --browndark:#974B4C;
+
+    --brownmedium:#ECB3A4;
+    --brownmedium2:#CF877D;
+    --brownmedium3:#F5D7CA;
+    --brownmedium4:#EEB19A;
+    --brownmedium5:#F6B0A1;
+    --brownmedium6:#FFBE9F;
+    --brownmedium7:#FBD6C8;
+    --brownmedium8:#DB837A;
+
+    --violet:#463464;
+    
+    --primary:var(--brown);
+    --secondary:var(--black);
+
+
+    --gutter:15px;
+    --containerW:calc(100% - (var(--gutter) * 2));
+
+    --vw:0;
+    --realContainerW:calc((var(--vw) * 100) - (var(--gutter) * 2));
+}

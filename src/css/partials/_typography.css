@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}  
+
+@font-face {
+    font-family: 'Nocturno Display Pro';
+    src: url('./fonts/NocturnoDisplayLC-Reg.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturno Display Pro';
+    src: url('./fonts/NocturnoDisplayLC-Bld.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'La Belle Aurore';
+    src: url('./fonts/LaBelleAurore.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html{
+    font-size:16px; 
+}
+
+body{
+    font-family: 'Inter';
+    overflow-x:hidden;
+    position:relative;
+}
+
+.nocturno{
+    font-family: 'Nocturno Display Pro';
+    font-weight: 400;
+}
+
+.belleaurore{
+    font-family: 'La Belle Aurore';
+}
