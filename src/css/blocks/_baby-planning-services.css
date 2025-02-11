@@ -1,0 +1,54 @@
+.baby-planning-services{
+    padding:2.125rem 0 66px 0;
+
+    .baby-planning-services-intro{
+        padding:3.75rem 3.125rem;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+
+    .intro-text{
+        h3{
+            order:1;
+            text-align:center;
+        }
+
+        img{
+            margin-top:2.3125rem;
+            order:2;
+        }
+
+        .default-text{
+            margin-top:2.5rem;
+            order:3;
+        }
+    }
+
+    .icons{
+        margin-top:2.75rem;
+
+        ul{
+            img{
+                max-width:6.25rem;
+                margin-bottom:1.25rem;
+            }
+
+            li + li{
+                margin-top:2.5rem;
+            }
+        }
+    }
+
+    .question-text{
+        max-width:85%;
+
+        h4 + .standard-text{
+            margin-top:2.25rem;
+        }
+
+        strong{
+            text-transform:uppercase;
+            color:var(--browndark);
+        }
+    }
+}

@@ -55,6 +55,10 @@ body{
     position:relative;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-weight:initial;
+}
+
 .nocturno{
     font-family: 'Nocturno Display Pro';
     font-weight: 400;
@@ -62,4 +66,121 @@ body{
 
 .belleaurore{
     font-family: 'La Belle Aurore';
+}
+
+.text-center{
+    text-align:center;
+}
+
+.text-white{
+    color:var(--white);
+}
+
+.text-bm6{
+    color:var(--brownmedium6);
+}
+
+.text-b{
+    color:var(--brown);
+}
+
+.text-bd{
+    color:var(--browndark);
+}
+
+.text-bd2{
+    color:var(--browndark2);
+}
+
+.text-b2{
+    color:var(--brown2);
+}
+
+.text-b3{
+    color:var(--brown3);
+}
+
+.h16{
+    font-size:1rem;
+    line-height:normal;
+}
+
+.h28{
+    font-size:1.75rem;
+    line-height:normal;
+}
+
+.h33{
+    font-size:2.0625rem;
+    line-height:1.515;
+}
+
+.h38{
+    font-size:2.375rem;
+    line-height:normal;
+}
+
+.h48{
+    font-size:3rem;
+    line-height:normal;
+}
+
+.h72{
+    font-size:4.455rem;
+    line-height:normal;
+}
+
+.bold{
+    font-weight:700;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.standard-text{
+    font-size:1rem;
+    line-height: normal;
+}
+
+.default-text{
+    ul,ol{
+        margin:0;
+    }
+
+    p, ol, ul{
+        & + *{
+            margin-top:.9375rem;
+        }
+    }
+
+    li + li{
+         margin-top:.4375rem;
+    }
+
+    ul,ol{
+        list-style-position: inside;
+
+        li{
+            text-indent: -1em;
+            padding-left: 1em;
+
+            ul,ol{
+                margin-top:.9375rem;
+            }
+
+            ul{
+                list-style-type:disc;
+            }
+        }
+    }
+}
+
+.l-t-none{
+    list-style-type: none;
+}
+
+.p22{
+    font-size:1.3613rem;
+    line-height:normal;
 }

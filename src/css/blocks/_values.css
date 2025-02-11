@@ -1,0 +1,35 @@
+.values{
+    padding:3.75rem 0 4.375rem 0;
+
+    .values-list{
+        margin: 0 auto;
+        max-width:50%;
+    }
+
+    li {
+        &:not(&:last-child){
+            p{
+                padding-bottom:.9375rem;
+
+                &:after{
+                    position:absolute;
+                    bottom:0;
+                    width:7.5rem;
+                    height:.0625rem;
+                    left:50%;
+                    transform:translateX(-50%);
+                    background-color:var(--black);
+                    content:'';
+                }
+            }
+        }
+
+        & + li{
+            margin-top:.9375rem;
+        }   
+    }
+
+    span + p{
+        margin-top:.9375rem;
+    }
+}

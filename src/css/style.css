@@ -1,2 +1,12 @@
 @import 'partials/_page.css';
 
+@import 'blocks/_jumbo.css';
+@import 'blocks/_intro.css';
+@import 'blocks/_bio.css';
+@import 'blocks/_values.css';
+@import 'blocks/_services.css';
+@import 'blocks/_mommy-membership.css';
+@import 'blocks/_baby-planning-services.css';
+@import 'blocks/_journey.css';
+
+@import 'components/_btn.css';

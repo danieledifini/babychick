@@ -9,10 +9,10 @@
   <body>
     <main id="content" role="main">
         <section class="jumbo">
-          <div class="image-container">
+          <div class="image-container ">
             <picture>
                 <source
-                data-srcset="src/img/jumbo-mobile.jpg"
+                srcset="src/img/jumbo-mobile.jpg"
                 media="(max-width: 767px)" />
                 <img  src="src/img/jumbo-desktop.jpg" alt="Jumbo Desktop">
             </picture>
@@ -20,50 +20,51 @@
 
         </section>
 
-        <section class="intro">
-          <div class="bg-container">
+        <section class="intro pos-rel">
+          
+          <div class="bg-container cover-image">
             <img  src="src/img/bg-intro.jpg" alt="Background intro">
           </div>
           
-          <div class="container-wrapper">
-              <div class="text-container">
-                <img class="icon"  src="src/img/babychick-icon.png" alt="Babychick icon">
+          <div class="container-wrapper pos-rel">
+              <div class="text-container dis-flex flex-col text-center">
+                <img class="icon mar-0-auto mar-btm-50"  src="src/img/babychick-icon.png" alt="Babychick icon">
 
-                <ul class="word-list nocturno">
-                  <li>Baby Planner,</li>
-                  <li>Pregnancy & Postpartum Coach,</li>
-                  <li>Birth & Postpartum Doula,</li>
-                  <li>Childbirth Educator,</li>
-                  <li>Newborn Educator,</li>
-                  <li>Infant Massage Instructor,</li>
-                  <li>Podcaster,</li>
-                  <li>Creator,</li>
-                  <li>Mother,</li>
+                <ul class="word-list nocturno dis-flex wrap jus-center mar-btm-50 l-t-none">
+                  <li class="bg-bm3">Baby Planner,</li>
+                  <li class="bg-b3">Pregnancy & Postpartum Coach,</li>
+                  <li class="bg-bm6">Birth & Postpartum Doula,</li>
+                  <li class="bg-bm5">Childbirth Educator,</li>
+                  <li class="bg-bm">Newborn Educator,</li>
+                  <li class="bg-bm7">Infant Massage Instructor,</li>
+                  <li class="bg-b3">Podcaster,</li>
+                  <li class="bg-bm8">Creator,</li>
+                  <li class="bg-bm5">Mother,</li>
 
                 </ul>
 
-                <h2 class="nocturno">And The <span>BIGGEST Cheerleader</span> For ALL Moms!</h2>
+                <h2 class="nocturno mar-btm-50 text-white h33">And The <span class="text-bm6">BIGGEST Cheerleader</span> For ALL Moms!</h2>
 
-                <div class="standard-text default-text text-center">
+                <div class="standard-text default-text text-center text-white mar-0-auto">
                   <p>Yes, I'm all of those things and more.<strong>And I'm so excited you're here!</strong><br/><br/>
 
                     <strong>Are you ready to THRIVE in motherhood?</strong><br/>
                     Pick the area where YOU want support.</p>
                 </div>
 
-                <div class="btn-container">
-                  <a href="" class="standard-btn var-1">
+                <div class="btn-container dis-flex">
+                  <a href="" class="standard-btn bg-bm3">
                     Pregnancy
                   </a>
-                  <a href="" class="standard-btn var-1">
+                  <a href="" class="standard-btn bg-bm4">
                     Birth
                   </a>
-                  <a href="" class="standard-btn var-1">
+                  <a href="" class="standard-btn bg-b3">
                     Postpartum
                   </a>
                 </div>
 
-                <div class="standard-text default-text">
+                <div class="standard-text default-text  text-white mar-0-auto">
                   <p><strong>Having helped 700+ mothers in person</strong> during their pregnancies, births, and postpartum journeys, and millions of mothers through my website, podcast, and newsletter, I believe that every mother needs and deserves caring support.</p>
                 </div>
               </div>
@@ -72,24 +73,24 @@
 
         </section>
           
-        <section class="bio">
-          <div class="bg-container">
+        <section class="bio pos-rel">
+          <div class="bg-container  cover-image">
             <img  src="src/img/bg-bio.jpg" alt="Background biography">
           </div>
 
-          <img class="main-image"  src="src/img/nina-spears.png" alt="Nina Spears">
+          <img class="main-image d-none-mobile"  src="src/img/nina-spears.png" alt="Nina Spears">
 
-          <div class="container-wrapper">
-            <div class="text-container">
-              <h2 class="nocturn">
-                Hi, <span>I'm Nina Spears!</span>
+          <div class="container-wrapper pos-rel">
+            <div class="text-container text-center mar-0-auto">
+              <h2 class="nocturno h48">
+                Hi, <span class="text-b">I'm Nina Spears!</span>
               </h2>
               <div class="standard-text default-text">
                 <p>Also known as <strong>“The Baby Chick”</strong> (the chick who works with moms and babies). <br/><br/>
 
                   I am excited that you are here to take the next step in getting <strong>the support you deserve.</strong></p>
               </div>
-              <div class="standard-text default-text">
+              <div class="standard-text default-text ">
                 <p>I’ve worked with expecting and new moms for the past 13 years. Over the years, I have offered:</p>
                   <ul>
                   <li>Baby planning</li>
@@ -100,7 +101,7 @@
                   <li>Massage therapy</li>
                   <li>Childbirth education</li>
                   <li>Newborn care education</li>
-                  I<li>nfant massage instruction</li>
+                  <li>Infant massage instruction</li>
                   </ul>
                   <p>
                   and more!<br/><br/>
@@ -109,9 +110,9 @@
               </div>
 
               <div class="btn-container">
-                <div class="standard-btn large-btn var-4">
+                <a class="standard-btn large-btn bg-bl2 uppercase" href="#">
                   Learn more about my story here
-                </div>
+                </a>
               </div>
             </div>
 
@@ -120,90 +121,105 @@
 
         <section class="values">
           <div class="container-wrapper">
-            <ul class="values-list">
-              <li>
-                <span class="nocturno">13+</span>
-                <p>Years of Experience</p>
+            <ul class="values-list dis-flex flex-col text-center l-t-none">
+              <li class="dis-flex flex-col">
+                <span class="nocturno h72 bold text-bd">13+</span>
+                <p class="p22 pos-rel">Years of Experience</p>
               </li>
-              <li>
-                <span class="nocturno">300+</span>
-                <p>Births Attended</p>
+              <li class="dis-flex flex-col">
+                <span class="nocturno h72 bold text-b2">300+</span>
+                <p class="p22 pos-rel">Births Attended</p>
               </li>
-              <li>
-                <span class="nocturno">700+</span>
-                <p>Families Supported</p>
+              <li class="dis-flex flex-col">
+                <span class="nocturno h72 bold text-b3">700+</span>
+                <p class="p22 pos-rel">Families Supported</p>
               </li>
             </ul>
           </div>
         </section>
 
         <section class="services">
-          <div class="all-section-title-container">
+          <div class="all-section-title-container bg-bl">
             <div class="container-wrapper">
-              <h1 class="text-center"><span class="belleaurore">What</span><span class="nocturno">services</span>
-                Does Nina Offer?</h1>
+              <h1 class="text-center dis-flex flex-col">
+                <span class="belleaurore">What</span>
+                <span class="nocturno text-b uppercase">services</span>
+                <span>Does Nina Offer?</span></h1>
             </div>
           </div>
            
           <section class="pregnancy">
-            <div class="section-title-container">
+            <div class="section-title-container bg-bd">
               <div class="container-wrapper">
-                <h2 class="nocturno">Pregnancy</h2>
+                <h2 class="nocturno text-white h16 ">Pregnancy</h2>
               </div>
             </div>
 
-            <section class="mommy-membership">
-              <div class="bg-container">
+            <section class="mommy-membership pos-rel">
+              <div class="bg-container cover-image">
                 <img  src="src/img/bg-coaching.jpg" alt="Background coaching">
               </div>
 
-              <div class="container-wrapper">
-                <div class="text-container">
-                  <h3 class="nocturno">The Mommy Membership: 
-                    Pregnancy Coaching</h3>
+              <div class="membership-upper pos-rel">
+               
 
-                  <div class="text-with-image text-right">
-                    <div class="image-container">
-                      <img  src="src/img/polaroid.png" alt="polaroid">
-                    </div>
-                    <div class="standard-text default-text">
-                      <p>Our Mommy Membership offers expecting mothers monthly virtual pregnancy coaching to <strong>support mamas</strong> throughout their pregnancy and <strong>prepare them</strong> for labor, birth, postpartum, and motherhood!
-                        <br/><br/>
-                        As your pregnancy coach, Nina covers weekly topics, checklists, and more to <strong>ensure you stay organized and confident</strong> throughout your pregnancy.</p>
-                    </div>
-                  </div>  
-
-                  <div class="text-with-image text-left">
-                    <div class="image-container">
-                      <img  src="src/img/coaching.png" alt="Coaching group">
-                    </div>
-                    <div class="standard-text default-text">
-                      <h4 class="nocturno bold">Included:</h4>
-                      <ul>
-                        <li><strong>Weekly 30-minute virtual video check-ins</strong>
-                        <ul>  
-                          <li>Up to 4 check-ins per month</li>
-                          <li>Can opt for a walking buddy 1x/week if located within a 15-mile radius from Nina</li>
-                        </ul>    
-                        </li>
-                        <li><strong>Chat support & pregnancy resources</strong>
-                        
-                          <ul><li>Handouts, worksheets & checklists included!</li></ul></li>
-                    </div>
-                  </div> 
+                <div class="container-wrapper pos-rel" >
+                  <div class="text-container dis-flex flex-col text-center mar-0-auto">
+                    <h3 class="nocturno text-white h28 bold">The Mommy Membership: 
+                      Pregnancy Coaching</h3>
+  
+                    <div class="text-with-image text-right">
+                      <div class="image-container ">
+                        <img  src="src/img/polaroid.png" alt="polaroid">
+                      </div>
+                      <div class="standard-text default-text">
+                        <p>Our Mommy Membership offers expecting mothers monthly virtual pregnancy coaching to <strong>support mamas</strong> throughout their pregnancy and <strong>prepare them</strong> for labor, birth, postpartum, and motherhood!
+                          <br/><br/>
+                          As your pregnancy coach, Nina covers weekly topics, checklists, and more to <strong>ensure you stay organized and confident</strong> throughout your pregnancy.</p>
+                      </div>
+                    </div>  
+  
+                  </div>
+  
                 </div>
-
               </div>
 
+              <div class="membership-lower bg-bl2 pos-rel">
+                
+                <div class="container-wrapper">
+                  <div class="text-container">
+                    
+                    <div class="text-with-image text-left dis-flex">
+                      <div class="image-container">
+                        <img  src="src/img/coaching.png" alt="Coaching group">
+                      </div>
+                      <div class="standard-text default-text">
+                        <h4 class="nocturno bold h28">Included:</h4>
+                        <ul>
+                          <li><strong>Weekly 30-minute virtual video check-ins</strong>
+                          <ul>  
+                            <li>Up to 4 check-ins per month</li>
+                            <li>Can opt for a walking buddy 1x/week if located within a 15-mile radius from Nina</li>
+                          </ul>    
+                          </li>
+                          <li><strong>Chat support & pregnancy resources</strong>
+                          
+                            <ul><li>Handouts, worksheets & checklists included!</li></ul></li>
+                      </div>
+                    </div> 
+                  </div>
+  
+                </div>
+              </div>
 
-              <div class="checkins">
-                <div class="bg-container">
+              <div class="checkins pos-rel">
+                <div class="bg-container cover-image">
                   <img  src="src/img/checkins.jpg" alt="Background checkins">
                 </div>
 
-                <div class="container-wrapper">
-                  <div class="text-container">
-                    <h4 class="nocturno bold">Check-ins include topics such as:</h4>
+                <div class="container-wrapper pos-rel">
+                  <div class="text-container bg-bl2 mar-0-auto">
+                    <h4 class="nocturno bold h28">Check-ins include topics such as:</h4>
                     <div class="standard-text default-text">
                       
 <ul>
@@ -222,7 +238,7 @@
 <li>Answering <strong>any and all questions</strong> about pregnancy, birth, postpartum, and motherhood!</li></ul>
                     </div>
 
-                    <div class="btn-container">
+                    <div class="btn-container text-center">
                       <a href="#" class="default-btn">
                         Schedule a Consult
                       </a>
@@ -234,53 +250,53 @@
 
             <section class="baby-planning-services">
               <div class="container-wrapper">
-                <div class="baby-planning-services-intro">
+                <div class="baby-planning-services-intro bg-bm3">
 
-                  <div class="intro-text">
+                  <div class="intro-text dis-flex flex-col">
                     <img class="main-image"  src="src/img/planning-services.jpg" alt="Planning services">
-                    <div class="text-container">
-                      <h3 class="nocturno">Baby Planning Services</h3>
+                    
+                      <h3 class="nocturno text-b h38">Baby Planning Services</h3>
                       <div class="default-text small-text"><p>
                         The term “baby planner” is still considered a new term for most people. The metaphor that I like to describe the importance of a baby planner best is that it’s similar to many of the essential experts one hires in their life for guidance and support. 
                       </p></div>
-                    </div>
+                    
                   </div>
 
-                  <div class="icons">
-                    <h4 class="belleaurore">For example:</h4>
-                    <ul class="icons-list">
-                      <li>
-                        <img src="src/img/jewel.png" alt="Jewel">
+                  <div class="icons dis-flex flex-col text-center mar-btm-50">
+                    <h4 class="belleaurore h28 text-bd2">For example:</h4>
+                    <ul class="icons-list l-t-none">
+                      <li class="dis-flex flex-col">
+                        <img class="mar-0-auto" src="src/img/jewel.png" alt="Jewel">
                         <div class="default-text small-text"><p>You might hire a wedding planner to help plan your wedding</p></div>
                       </li>
-                      <li>
-                        <img src="src/img/dollars.png" alt="Jewel">
+                      <li  class="dis-flex flex-col">
+                        <img class="mar-0-auto"  src="src/img/dollars.png" alt="Jewel">
                         <div class="default-text small-text"><p>You may work with a financial planner to plan for your retirement and future.</p></div>
                       </li>
-                      <li>
-                        <img src="src/img/training.png" alt="Jewel">
+                      <li  class="dis-flex flex-col">
+                        <img class="mar-0-auto"  src="src/img/training.png" alt="Jewel">
                         <div class="default-text small-text"><p>You may hire a personal trainer to help you get healthier and into shape.</p></div></li>
                     </ul>
                   </div>
 
-                  <div class="question-text">
-                    <h4 class="nocturno">So, the real question is:</h4>
+                  <div class="question-text text-center mar-0-auto">
+                    <h4 class="nocturno bold h28 ">So, the real question is:</h4>
                     <div class="standard-text default-text">
                       <p>Why wouldn't you hire a baby planner to help prepare you for THE most important event in your life? <strong>Becoming a parent!</strong></p>
                     </div>
                   </div>
                 </div>
 
-                <div class="journey">
-                  <div class="bg-container">
+                <div class="journey pos-rel dis-flex flex-col">
+                  <div class="bg-container cover-image">
                     <img  src="src/img/bg-journey.jpg" alt="Background journey">
                   </div> 
-                  <div class="text-container">
-                    <div class="default-text medium-text">
+                  <div class="text-container pos-rel mar-0-auto">
+                    <div class="default-text medium-text text-white">
                       <p>
                         A baby planner helps busy families prepare for one of <strong>life's most important journeys.</strong><br/><br/>
 
-We serve as <span class="belleaurore">part expert, part best friend.</span><br/><br/>
+We serve as <em>part expert, part best friend.</em><br/><br/>
 
 We can help guide you through:</p>
 <ul>
@@ -295,7 +311,7 @@ We can help guide you through:</p>
                     </div>
 
                   </div>
-                  <img class="main-image"  src="src/img/journey.png" alt="Journey">
+                  <img class="main-image pos-rel"  src="src/img/journey.png" alt="Journey">
                 </div>
 
                 <div class="enter">

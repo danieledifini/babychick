@@ -1,0 +1,27 @@
+.journey{
+    padding-top:3.5rem;
+    overflow:hidden;
+
+    &:after{
+        position:absolute;
+        bottom:0;
+        height:6.0625rem;
+        left:0;
+        right:0;
+        content:'';
+        background-color:var(--brown3);
+        z-index:0;
+    }
+
+    .text-container{
+        max-width:75%;
+       
+    }
+
+    .main-image{
+        width:90%;
+        margin-left:12%;
+        margin-top:-2.5rem;
+        z-index:1;
+    }
+}

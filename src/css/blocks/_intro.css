@@ -1,0 +1,33 @@
+.intro{
+    padding-bottom:8.5rem;
+    --iconw:8.5625rem;
+
+    .icon{
+        width:var(--iconw);
+        height:var(--iconw);
+        margin-top:calc(var(--iconw) * -0.5);
+    }
+
+    .word-list{
+        margin-bottom:var(--margin50);
+        row-gap:.9375rem;
+        column-gap:.5rem;
+
+        li{
+            padding:.0187rem .625rem;
+            font-size:1.4375rem;
+            line-height:1.478;
+        }
+    }
+
+    .btn-container{
+        margin:2.5rem auto;
+        flex-direction:column;
+        align-items:center;
+        row-gap:1.5rem;
+    }
+
+    .default-text{
+        max-width:75%;
+    }
+}

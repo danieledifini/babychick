@@ -1,0 +1,59 @@
+.mommy-membership{
+    padding-bottom:6.0625rem;
+
+    .membership-upper{
+        padding:2.1875rem 0 4.375rem 0;
+
+        .text-container{
+            max-width:85%;
+        }
+
+        .image-container{
+            margin:2.1875rem 0 3.125rem 0;
+        }
+    }
+
+
+    .membership-lower{
+        overflow:hidden;
+    }
+
+    .text-with-image{
+        &.text-left{
+            padding-top:7.625rem;
+            flex-direction:column-reverse;
+
+            .image-container{
+                margin-top:-2.5rem;
+
+                img{
+                    max-width:initial;
+                    width:120%;
+                    margin-left:50%;
+                    transform:translateX(-50%);
+                }
+            }
+        }
+
+        h4 + ul{
+            margin-top:1.5625rem;
+        }
+    }
+
+    .checkins{
+        padding:4.6875rem 0 5.1875rem 0;
+
+        .text-container{
+            max-width:85%;
+            padding:2.5rem 2.5rem 3.5625rem 2.5rem;
+        }
+
+        h4 + .standard-text{
+            margin-top:2.5rem;
+        }
+
+        .btn-container {
+            margin-top:3.3125rem;
+        }
+    }
+}

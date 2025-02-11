@@ -1,0 +1,30 @@
+.services{
+    .all-section-title-container{
+        padding:3.3125rem 0 4.6875rem 0;
+
+        h1{
+            line-height:1;
+
+            span{
+                &.belleaurore{
+                    font-size:3.125rem;
+                    margin-bottom:-0.625rem;
+                }
+
+                &.nocturno{
+                    font-size:3.3925rem;
+                }
+
+                &:last-child{
+                    font-size:1.6406rem;
+                }
+            }
+        }
+    }
+
+    .section-title-container{
+        padding:1.0625rem 0 14px 0;
+    }
+
+   
+}

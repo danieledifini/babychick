@@ -1,0 +1,27 @@
+.bio{
+    padding:9.875rem 0 7rem 0;
+
+    h2{
+        margin-bottom:2.6875rem;
+    }
+
+    .default-text + .default-text{
+        margin-top:3.9375rem;
+    }
+
+    .default-text{
+        ul{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+        }
+    }
+
+    .text-container{
+        max-width:85%;
+    }
+
+    .btn-container{
+        margin-top:5.625rem;
+    }
+}

@@ -12,6 +12,7 @@
     --brownlight4:#F5D7CA;
     
     --browndark:#974B4C;
+    --browndark2:#7A2F32;
 
     --brownmedium:#ECB3A4;
     --brownmedium2:#CF877D;
@@ -31,6 +32,10 @@
     --gutter:15px;
     --containerW:calc(100% - (var(--gutter) * 2));
 
+    --grid-max-width:112.5rem;
+
     --vw:0;
     --realContainerW:calc((var(--vw) * 100) - (var(--gutter) * 2));
+
+    --margin50:3.125rem;
 }
