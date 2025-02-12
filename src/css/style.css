@@ -8,5 +8,9 @@
 @import 'blocks/_mommy-membership.css';
 @import 'blocks/_baby-planning-services.css';
 @import 'blocks/_journey.css';
+@import 'blocks/_enter.css';
+@import 'blocks/_services-list.css';
+@import 'blocks/_text-cta-big-image-right.css';
+@import 'blocks/_freebies.css';
 
 @import 'components/_btn.css';

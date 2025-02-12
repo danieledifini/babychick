@@ -1,0 +1,15 @@
+.enter{
+    padding:4.6875rem 0 7.5rem 0;
+    
+    .text-container{
+        max-width:85%;
+    }
+
+    .large-text{
+        margin-top:0;
+    }
+
+    img{
+        margin-top:-2.5rem
+    }
+}

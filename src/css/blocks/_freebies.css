@@ -1,0 +1,28 @@
+.freebies{
+    padding:8.75rem 0 7.1875rem 0;
+
+    .illustration{
+        margin-top:-3.125rem;
+    }
+
+    .freebies-list{
+        margin-top:1.875rem;
+    }
+
+    .single-freebie{
+        padding:2.3125rem 2.3125rem 0 2.3125rem;
+        max-width:90%;
+
+        .default-text{
+            margin-top:1.5625rem;
+        }
+
+        .btn-container{
+            margin-top:1.25rem;
+        }
+
+        & + .single-freebie{
+            margin-top:4.6875rem;
+        }
+    }
+}

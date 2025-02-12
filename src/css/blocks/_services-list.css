@@ -1,0 +1,30 @@
+.services-list{
+    padding:10.25rem 0 4.125rem 0;
+
+    .bg-container{
+        height:111.9375rem;
+        left:calc(var(--gutter) * -1);
+        width:calc(100% + (var(--gutter)*2));
+    }
+
+    .single-list-item{
+        padding:2.5625rem 2.3125rem;
+        border-radius:.9375rem;
+
+        .text-container, .default-text{
+            margin-top:2.0625rem;
+        }
+
+        img{
+            border-radius:.9375rem;
+        }
+
+        .btn-container{
+            margin-top:2.5rem;
+        }
+
+        & + .single-list-item{
+            margin-top:4.5rem;
+        }
+    }
+}

@@ -13,6 +13,7 @@
     
     --browndark:#974B4C;
     --browndark2:#7A2F32;
+    --browndark3:#7B3134;
 
     --brownmedium:#ECB3A4;
     --brownmedium2:#CF877D;
@@ -22,7 +23,9 @@
     --brownmedium6:#FFBE9F;
     --brownmedium7:#FBD6C8;
     --brownmedium8:#DB837A;
+    --brownmedium9:#F4D1C1;
 
+    --brownviolet:#C8ACAC;
     --violet:#463464;
     
     --primary:var(--brown);

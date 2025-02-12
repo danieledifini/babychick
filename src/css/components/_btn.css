@@ -35,3 +35,52 @@
         color:var(--white);
     }
 }
+
+.small-btn{
+    padding:.375rem 1.25rem .4375rem;
+    min-width:12.75rem;
+    display:inline-block;
+    border-radius:3.5625rem;
+    font-size:1rem;
+    line-height:normal;
+    text-decoration:none;
+
+    &.black-btn{
+        color:var(--black);
+        border:.0625rem solid var(--black);
+
+        &:hover{
+            border-color:var(--primary);
+            background-color:var(--primary);
+            color:var(--white);
+        }
+    }
+}
+
+.small-btn-alt{
+    padding:.75rem 1.25rem;
+    display: inline-block;
+    text-decoration:none;
+    font-size:.875rem;
+    line-height:normal;
+    border-radius:3.05rem;
+}
+
+.medium-btn{
+    display: inline-block;
+    padding:.9375rem 1.25rem;
+    font-size:1rem;
+    line-height:normal;
+    border-radius:4.875rem;
+    text-decoration:none;
+}
+
+.white-btn{
+    color:var(--black);
+    background-color:var(--white);
+
+    &:hover{
+        background-color:var(--primary);
+        color:var(--white);
+    }
+}

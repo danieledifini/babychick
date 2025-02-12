@@ -1,0 +1,21 @@
+.text-cta-big-image-right{
+    flex-direction:column-reverse;
+
+    .text-container{
+        padding:45px 0;
+        max-width:90%;
+    }
+
+    .small-text{
+        margin-top:1.875rem;
+    }
+
+    .btn-container{
+        margin-top:3.75rem;
+    }
+
+    .image-container{
+        height:auto;
+        padding-bottom:75%;
+    }
+}
