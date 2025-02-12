@@ -16,6 +16,28 @@
 
     .image-container{
         height:auto;
-        padding-bottom:75%;
+    }
+
+    @media (max-width: 47.9375rem) {
+        .image-container{
+            padding-bottom:75%;
+        }
+    }
+
+    @media (min-width: 48rem) {
+        position:relative;
+
+        .text-container{
+            max-width:60%;
+            margin-left:5%;
+        }
+
+        .image-container{
+            right:0;
+            top:0;
+            bottom:0;
+            width:30%;
+            position:absolute;
+        }
     }
 }

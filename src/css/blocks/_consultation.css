@@ -24,6 +24,12 @@
     }
 
     .main-image{
-        margin-left:-20%;
+        @media (max-width: 47.9375rem) {
+            margin-left:-20%;   
+        }
+
+        @media (min-width: 48rem) {
+            margin-left: -5%;
+        }
     }
 }

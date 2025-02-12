@@ -5,6 +5,7 @@
         margin-top:2.6875rem;
         justify-content:center;
         column-gap:.5rem;
+        min-width:100%;
     }
 
     button{
@@ -30,6 +31,13 @@
 
         span{
             padding:.625rem
+        }
+    }
+
+    @media (min-width: 48rem) {
+        .video-list{
+            display:flex;
+            column-gap:1.625rem;
         }
     }
 }

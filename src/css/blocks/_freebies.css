@@ -11,9 +11,12 @@
         row-gap:4.6875rem;
 
         @media (min-width: 48rem) {
-            flex-direction:row;
-            flex-wrap:wrap;
-            column-gap:var(--colGap);
+            display:grid;
+            grid-template-columns: repeat(2,minmax(0, 1fr));
+        }
+
+        @media (min-width: 62rem) {
+            grid-template-columns: repeat(3,minmax(0, 1fr));
         }
     }
 
