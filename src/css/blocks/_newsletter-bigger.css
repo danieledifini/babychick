@@ -1,0 +1,35 @@
+.newsletter-bigger{
+    padding:4.4375rem 0 7.125rem 0;
+
+    h2{
+        .belleaurore{
+            line-height:1;
+        }
+    }
+
+    .text-container{
+        max-width:90%;
+    }
+
+    .form-field{
+        input{
+            padding:.875rem 1.5rem;
+            max-width: 100%;
+            border:.0625rem solid var(--grey);
+            font-size:.875rem;
+            color:var(--black);
+        }
+
+        input::placeholder {
+            color:var(--black);
+        }
+
+        & + .form-field{
+            margin-top:.625rem;
+        }
+    }
+
+    .submit-btn{
+        margin-top:.625rem;
+    }
+}

@@ -1,5 +1,6 @@
 .services-list{
     padding:10.25rem 0 4.125rem 0;
+    overflow:hidden;
 
     .bg-container{
         height:111.9375rem;

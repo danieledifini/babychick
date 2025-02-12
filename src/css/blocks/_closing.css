@@ -1,0 +1,29 @@
+.closing{
+    overflow:hidden;
+
+    .images{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .container-wrapper{
+        flex-direction:column-reverse;
+    }
+
+    .image-container{
+        margin-left:calc(var(--gutter) * -1);
+        width:calc(100% + (var(--gutter) * 2));
+    }
+
+    .text-container{
+        padding:4.625rem 0 1.875rem 0;
+        max-width:90%;
+    }
+
+    .belleaurore{
+        margin-top:1.875rem;
+        line-height:1;
+        display: inline-block;
+        transform:rotate(-5deg);
+    }
+}

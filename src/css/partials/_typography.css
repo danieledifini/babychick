@@ -104,6 +104,12 @@ h1,h2,h3,h4,h5,h6{
     color:var(--brown3);
 }
 
+.text-bl4{
+    color:var(--brownlight4);
+}
+
+
+
 .h16{
     font-size:1rem;
     line-height:normal;
@@ -111,6 +117,16 @@ h1,h2,h3,h4,h5,h6{
 
 .h19{
     font-size:1.1875rem;
+    line-height:normal;
+}
+
+.h20{
+    font-size:1.2631rem;
+    line-height:normal;
+}
+
+.h25{
+    font-size:1.5625rem;
     line-height:normal;
 }
 
@@ -124,8 +140,23 @@ h1,h2,h3,h4,h5,h6{
     line-height:1.515;
 }
 
+.h36{
+    font-size:2.2794rem;
+    line-height:normal;
+}
+
 .h38{
     font-size:2.375rem;
+    line-height:normal;
+}
+
+.h41{
+    font-size:2.5625rem;
+    line-height:normal;
+}
+
+.h44{
+    font-size:2.7931rem;
     line-height:normal;
 }
 
@@ -136,6 +167,11 @@ h1,h2,h3,h4,h5,h6{
 
 .h49{
     font-size:3.1025rem;
+    line-height:1;
+}
+
+.h59{
+    font-size:3.7406rem;
     line-height:1;
 }
 
@@ -168,6 +204,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .large-text{
+    font-size:1rem;
+    line-height: normal;
+
+    &.nocturno{
+        font-size:1.375rem;
+    }
+}
+
+.medium-text{
     font-size:1rem;
     line-height: normal;
 }

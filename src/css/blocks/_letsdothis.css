@@ -1,0 +1,16 @@
+.letsdothis{
+    padding-top:5rem;
+    flex-direction:column-reverse;
+
+    .default-text{
+        margin-top:1.875rem;
+    }
+
+    .main-image{
+        margin-top:1.875rem;
+    }
+
+    .text-container{
+        max-width: 90%;
+    }
+}

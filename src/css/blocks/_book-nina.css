@@ -1,0 +1,19 @@
+.book-nina{
+    padding:5.375rem 0 6.5625rem 0; 
+
+    .illustration{
+        opacity:.8;    
+    }
+
+    h3{
+        margin-top:3.1875rem;
+    }
+
+    .default-text{
+        margin-top:3.125rem;
+    }
+
+    .btn-container{
+        margin-top:1.875rem;
+    }
+}

@@ -1,0 +1,29 @@
+.consultation{
+    padding:3.375rem 0 4.625rem 0;
+    flex-direction:column-reverse;
+    overflow: hidden;
+
+    .fake-title{
+        align-items: center;
+        margin-bottom:1.25rem;
+
+        .belleaurore{
+            line-height:1.3;
+        }
+
+        img{
+            width:15.625rem;
+            margin-top:-1.875rem;
+            margin-left:1.25rem;
+        }
+    }
+
+    .small-text{
+        margin-top:1.25rem;
+        max-width:75%;
+    }
+
+    .main-image{
+        margin-left:-20%;
+    }
+}

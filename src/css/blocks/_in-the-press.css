@@ -1,0 +1,9 @@
+.in-the-press{
+    overflow:hidden;
+    padding:4.8125rem 0 2.25rem 0;
+
+    img{
+        height:10.125rem;
+        max-width:initial;
+    }
+}

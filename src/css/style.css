@@ -12,5 +12,16 @@
 @import 'blocks/_services-list.css';
 @import 'blocks/_text-cta-big-image-right.css';
 @import 'blocks/_freebies.css';
+@import 'blocks/_letsdothis.css';
+@import 'blocks/_consultation.css';
+@import 'blocks/_speaker.css';
+@import 'blocks/_credentials.css';
+@import 'blocks/_book-nina.css';
+@import 'blocks/_closing.css';
+@import 'blocks/_in-the-press.css';
+@import 'blocks/_videos.css';
+@import 'blocks/_newsletter-bigger.css';
+@import 'blocks/_chickchat.css';
+@import 'blocks/_subscribe.css';
 
 @import 'components/_btn.css';

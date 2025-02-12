@@ -1,0 +1,52 @@
+.speaker{
+    padding-top:2.9375rem;
+    overflow:hidden;
+
+    .text-image-inside{
+        flex-direction:column-reverse;
+
+        .image-container{
+            margin-top:2.5rem;
+            margin-right:-25%;
+        }
+
+        .inner-text-container{
+            max-width:85%;
+        }
+    }
+
+    .complex-title{
+        padding-bottom:2.6875rem;
+        margin-bottom:3.75rem;
+
+        &:after{
+            position:absolute;
+            height:.0625rem;
+            width:17.5rem;
+            left:50%;
+            bottom:0;
+            transform:translateX(-50%);
+            background-color:var(--white);
+            content:'';
+        }
+    }
+
+    .text-image-outside{
+        margin:2.1875rem 0 3.1875rem 0;
+
+        .default-text{
+            margin-top:2.1875rem;
+        }
+
+        .image-container{
+            margin-top:3.1875rem;
+
+            img{
+                max-width:initial;
+                min-width:48rem;
+                margin-left:50%;
+                transform:translateX(-50%);
+            }
+        }
+    }
+}

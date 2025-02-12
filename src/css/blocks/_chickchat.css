@@ -1,0 +1,27 @@
+.chickchat{
+
+    .upper-chickchat{
+        padding-top: 92px;
+
+        .bg-container{
+            position:absolute;
+            top:0;
+            left:0;
+            right:0;
+            height:53.125rem;
+        }
+
+        .text-container{
+            max-width:85%;
+        } 
+
+        .default-text{
+            margin:1.5625rem 0;
+        }  
+
+        .image-container{
+            margin-top:-1.25rem;
+        }
+    }
+    
+}

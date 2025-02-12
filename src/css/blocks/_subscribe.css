@@ -1,0 +1,24 @@
+.subscribe{
+    padding: 73px 0 2.9375rem 0;
+
+    .default-text{
+        margin-top:2.8125rem;
+        max-width:9.375rem;
+    }
+
+    .text-container{
+        max-width:90%;
+    }
+
+    .btn-container{
+        margin-top:4.1875rem;
+        gap:.9375rem;
+    }
+
+    .podcast-btn{
+        img{
+            height:3.6875rem;
+            width:auto;
+        }
+    }
+}

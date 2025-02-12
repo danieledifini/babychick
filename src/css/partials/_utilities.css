@@ -69,6 +69,10 @@ picture,img{
 
 /* COLORS */
 
+.bg-b{
+    background-color:var(--brown);
+}
+
 .bg-bm{
     background-color:var(--brownmedium);
 }
@@ -132,3 +136,8 @@ picture,img{
 .bg-bv{
     background-color:var(--brownviolet);
 }
+
+.bg-v{
+    background-color:var(--violet);
+}
+

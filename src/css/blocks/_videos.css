@@ -1,0 +1,35 @@
+.videos{
+    padding:115px 0;
+
+    .btn-container{
+        margin-top:2.6875rem;
+        justify-content:center;
+        column-gap:.5rem;
+    }
+
+    button{
+        width:3.125rem;
+        height:3.125rem;
+        justify-content:center;
+        align-items:center;
+        border:0;
+        border-radius:.2813rem;
+        cursor:pointer;
+
+        &.prev-btn{
+            svg{
+                transform:scaleX(-1);
+            }
+        }
+    }
+
+    .video-link{
+        text-decoration:none;
+        color:var(--black);
+        font-size:1rem;
+
+        span{
+            padding:.625rem
+        }
+    }
+}
