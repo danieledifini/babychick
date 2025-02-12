@@ -64,4 +64,9 @@
     span + p{
         margin-top:.9375rem;
     }
+
+    @media (min-width: 62rem) {
+        padding-top:10.8125rem;
+        padding-bottom:13.25rem;
+    }
 }

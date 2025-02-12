@@ -60,6 +60,13 @@ picture,img{
     }
 }
 
+.d-none-desktop{
+    @media (min-width: 62rem) {
+        display:none;
+        visibility:hidden;
+    }
+}
+
 .img-cover{
     position: absolute;
     width: 100%;

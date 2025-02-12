@@ -1,5 +1,5 @@
 .freebies{
-    padding:8.75rem 0 7.1875rem 0;
+    
     --colGap:3.125rem;
 
     .illustration{
@@ -13,16 +13,18 @@
         @media (min-width: 48rem) {
             display:grid;
             grid-template-columns: repeat(2,minmax(0, 1fr));
+            row-gap:3.125rem;
+            column-gap:4.0625rem;
         }
 
         @media (min-width: 62rem) {
             grid-template-columns: repeat(3,minmax(0, 1fr));
+            padding:0 5%;
         }
     }
 
     .single-freebie{
         padding:2.3125rem 2.3125rem 0 2.3125rem;
-        max-width:90%;
 
         .default-text{
             margin-top:1.5625rem;
@@ -32,12 +34,26 @@
             margin-top:1.25rem;
         }
 
+        @media (max-width: 47.9375rem) {
+            max-width:90%;
+        }
+
         @media (min-width: 48rem) {
-            
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
         }
 
         @media (min-width: 62rem) {
-            
+            padding:3.125rem 3.125rem 0 3.125rem;
         }
+    }
+
+    @media (max-width: 61.9375rem) {
+        padding:8.75rem 0 7.1875rem 0;  
+    }
+
+    @media (min-width: 62rem) {
+        padding:12.5rem 0 15.625rem 0;  
     }
 }

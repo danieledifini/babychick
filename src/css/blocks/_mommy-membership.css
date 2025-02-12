@@ -1,21 +1,45 @@
 .mommy-membership{
     padding-bottom:6.0625rem;
 
+    @media (min-width: 62rem) {
+        padding-bottom:13.75rem;
+    }
+
     .membership-upper{
         padding:2.1875rem 0 4.375rem 0;
 
-        .text-container{
-            max-width:85%;
+        @media (max-width: 61.9375rem) {
+            .text-container{
+                max-width:85%;
+            }
+
+            .image-container{
+                margin:2.1875rem 0 3.125rem 0;
+            }
         }
 
-        .image-container{
-            margin:2.1875rem 0 3.125rem 0;
+        @media (min-width: 62rem) {
+            padding-top:clamp(35px, calc(35px + (242 - 35) * (100vw - 768px)/(1920 - 768)), 242px);
+            padding-bottom:16.0625rem;
+
+            h3{
+                margin-bottom:8.625rem;
+                max-width:75%;
+                margin-left:auto;
+                margin-right:auto;
+            }
         }
     }
 
 
     .membership-lower{
         overflow:hidden;
+
+        @media (min-width: 62rem) {
+            margin-bottom:13.5rem;
+            background-color:transparent;
+            overflow:visible;
+        }
     }
 
     .text-with-image{
@@ -24,13 +48,15 @@
             flex-direction:column-reverse;
 
             .image-container{
-                margin-top:-2.5rem;
+                @media (max-width: 61.9375rem) {
+                    margin-top:-2.5rem;
 
-                img{
-                    max-width:initial;
-                    width:120%;
-                    margin-left:50%;
-                    transform:translateX(-50%);
+                    img{
+                        max-width:initial;
+                        width:120%;
+                        margin-left:50%;
+                        transform:translateX(-50%);
+                    }
                 }
             }
         }
@@ -38,15 +64,78 @@
         h4 + ul{
             margin-top:1.5625rem;
         }
+
+        @media (min-width: 62rem) {
+            position:relative;
+            background-color:var(--brownlight2);
+            text-align:left;
+
+             &:after{
+                position:absolute;
+                top:0;
+                bottom:0;
+                background-color:var(--brownlight2);
+                width:50%;
+                content:'';
+            }
+     
+            .image-container{
+                position:absolute;
+            }
+
+            &.text-right{
+                padding-top:12.5rem;
+                padding-bottom:12.5rem;
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                width:75%;
+                margin-left:auto;
+
+                &:after{
+                    left:100%;
+                }
+
+                .standard-text{
+                    width:65%;
+                    margin-right:5%;
+                    margin-left:auto;
+                }
+
+                .image-container{
+                    width:50%;
+                    left:-25%;
+                }
+            }
+
+            &.text-left{
+                padding-top:5.625rem;
+                padding-bottom:5.625rem;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                width:90%;
+                margin-right:auto;
+
+                &:after{
+                    right:100%;
+                }
+
+                .standard-text{
+                    width:35%;
+                    margin-left:5%;
+                    margin-right:auto;
+                }
+
+                .image-container{
+                    width:72%;
+                    bottom:0;
+                    right:-12%;
+                }
+            }
+        }
     }
 
     .checkins{
         padding:4.6875rem 0 5.1875rem 0;
-
-        .text-container{
-            max-width:85%;
-            padding:2.5rem 2.5rem 3.5625rem 2.5rem;
-        }
 
         h4 + .standard-text{
             margin-top:2.5rem;
@@ -54,6 +143,22 @@
 
         .btn-container {
             margin-top:3.3125rem;
+        }
+
+        @media (max-width: 61.9375rem) {
+            .text-container{
+                max-width:85%;
+                padding:2.5rem 2.5rem 3.5625rem 2.5rem;
+            }
+        }
+
+        @media (min-width: 62rem) {
+            padding:14.5625rem 0;
+
+            .text-container{
+                max-width:75%;
+                padding:6.1875rem;
+            }
         }
     }
 }

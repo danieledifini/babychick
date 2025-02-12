@@ -59,4 +59,28 @@
             }
         }
     }
+
+    @media (min-width: 62rem) {
+         .items-list{
+            padding:0 7.5%;
+        }
+
+        .single-list-item{
+            padding:5.625rem 4.375rem;
+            
+
+            & + .single-list-item{
+                margin-top:clamp(72px, calc(72px + (200 - 72) * (100vw - 768px)/(1920 - 768)), 200px);
+            }
+        }
+
+        .bg-container{
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            overflow:hidden;
+            left:0;
+            width:100%;
+        }
+    }
+   
 }

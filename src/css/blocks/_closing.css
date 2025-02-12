@@ -10,22 +10,11 @@
         }
     }
 
-    .container-wrapper{
-        flex-direction:column-reverse;
-    }
-
+    
     .image-container{
-        margin-left:calc(var(--gutter) * -1);
-        width:calc(100% + (var(--gutter) * 2));
-
         img{
             min-width:100%;
         }
-    }
-
-    .text-container{
-        padding:4.625rem 0 1.875rem 0;
-        max-width:90%;
     }
 
     .belleaurore{
@@ -33,5 +22,39 @@
         line-height:1;
         display: inline-block;
         transform:rotate(-5deg);
+    }
+
+    @media (max-width: 61.9375rem) {
+        .container-wrapper{
+            flex-direction:column-reverse;
+        }
+
+         .image-container{
+            margin-left:calc(var(--gutter) * -1);
+            width:calc(100% + (var(--gutter) * 2));
+        }
+
+        .text-container{
+            padding:4.625rem 0 1.875rem 0;
+            max-width:90%;
+        }
+    }
+
+    @media (min-width: 62rem) {
+
+        .image-container{
+            width:50%;
+            min-width:50%;
+            border-radius:2.1875rem;
+            overflow:hidden;
+        }
+        .container-wrapper{
+            padding:9.9375rem 5%;
+            align-items:center;
+        }
+
+        .text-container{
+            max-width:35%;
+        }
     }
 }

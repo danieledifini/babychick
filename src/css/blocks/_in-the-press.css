@@ -6,4 +6,12 @@
         height:10.125rem;
         max-width:initial;
     }
+
+    @media (min-width: 62rem) {
+        padding-top:5.625rem;
+
+        img{
+            width:100%;
+        }
+    }
 }

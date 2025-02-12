@@ -40,4 +40,20 @@
             position:absolute;
         }
     }
+
+    @media (min-width: 62rem) {
+        .text-container{
+            padding-top:clamp(45px, calc(45px + (350 - 45) * (100vw - 768px)/(1920 - 768)), 350px);
+            padding-bottom:clamp(45px, calc(45px + (350 - 45) * (100vw - 768px)/(1920 - 768)), 350px);
+            max-width:45%;
+        }
+
+        .image-container{
+            width:40%;
+        }
+
+        .small-text{
+            margin-top:3.125rem;
+        }
+    }
 }

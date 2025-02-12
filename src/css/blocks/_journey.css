@@ -1,6 +1,5 @@
 .journey{
     padding-top:3.5rem;
-    
 
     &:after{
         height:6.0625rem;
@@ -52,4 +51,11 @@
         z-index:1;
     }
     
+    @media (min-width: 62rem) {
+        padding-top:6.875rem;
+
+        .text-container{
+            padding-bottom:6.25rem;
+        }
+    }
 }

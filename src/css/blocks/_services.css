@@ -9,21 +9,37 @@
                 &.belleaurore{
                     font-size:3.125rem;
                     margin-bottom:-0.625rem;
+
+                    font-size: clamp(50px, calc(50px + (55 - 50) * (100vw - 768px)/(1920 - 768)), 55px);
                 }
 
                 &.nocturno{
                     font-size:3.3925rem;
+
+                    font-size: clamp(54px, calc(50px + (160 - 54) * (100vw - 768px)/(1920 - 768)), 160px);
                 }
 
                 &:last-child{
                     font-size:1.6406rem;
+
+                    font-size: clamp(26px, calc(26px + (44 - 26) * (100vw - 768px)/(1920 - 768)), 44px);
                 }
             }
+        }
+
+        @media (min-width: 62rem) {
+
+            padding-top:clamp(60px, calc(60px + (222 - 60) * (100vw - 768px)/(1920 - 768)), 222px);
+            padding-bottom:clamp(70px, calc(70px + (222 - 70) * (100vw - 768px)/(1920 - 768)), 222px);
         }
     }
 
     .section-title-container{
         padding:1.0625rem 0 14px 0;
+
+        @media (min-width: 62rem) {
+            padding:2rem 0;
+        }
     }
 
    

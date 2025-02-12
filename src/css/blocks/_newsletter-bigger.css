@@ -1,5 +1,5 @@
 .newsletter-bigger{
-    padding:4.4375rem 0 7.125rem 0;
+    
 
     h2{
         .belleaurore{
@@ -7,9 +7,7 @@
         }
     }
 
-    .text-container{
-        max-width:90%;
-    }
+    
 
     .form-field{
         input{
@@ -32,5 +30,43 @@
 
     .submit-btn{
         margin-top:.625rem;
+    }
+
+    @media (max-width: 61.9375rem) {
+        padding:4.4375rem 0 7.125rem 0;
+
+        .text-container{
+            max-width:90%;
+        }
+    }
+
+    @media (min-width: 62rem) {
+        padding-top:clamp(100px, calc(100px + (400 - 100) * (100vw - 768px)/(1920 - 768)), 400px);
+        padding-bottom:clamp(100px, calc(100px + (400 - 100) * (100vw - 768px)/(1920 - 768)), 400px);
+
+        .container-wrapper{
+            display:flex;
+        }
+
+        .image-container{
+            position:absolute;
+            width:65%;
+            top:50%;
+            transform:translateY(-50%);
+            left:-6%;
+        }
+
+        h2{
+            text-align:center;
+        }
+
+        .text-container{
+            margin-right:5%;
+            min-width:40%
+        }
+
+        .form-container{
+            margin-top:4.0625rem;
+        }
     }
 }

@@ -3,6 +3,7 @@
     min-width:10.3125rem;
     padding:.375rem 2.1875rem;
     font-size:1.0313rem;
+    font-size: clamp(16.5px, calc(16.5px + (33 - 16.5) * (100vw - 768px)/(1920 - 768)), 33px);
     line-height:normal;
     text-decoration:none;
     color:var(--black);
@@ -28,6 +29,8 @@
     border-radius:1.2813rem;
     text-decoration:none;
     font-size:1.1375rem;
+
+    font-size: clamp(18.2px, calc(18.2px + (23 - 18.2) * (100vw - 768px)/(1920 - 768)), 23px);
     line-height:normal;
 
     &:hover{
@@ -42,6 +45,7 @@
     display:inline-block;
     border-radius:3.5625rem;
     font-size:1rem;
+    font-size: clamp(16px, calc(16px + (23 - 16) * (100vw - 768px)/(1920 - 768)), 23px);
     line-height:normal;
     text-decoration:none;
 
@@ -62,6 +66,8 @@
     display: inline-block;
     text-decoration:none;
     font-size:.875rem;
+
+    font-size: clamp(14px, calc(14px + (20.6 - 14) * (100vw - 768px)/(1920 - 768)), 20.6px);
     line-height:normal;
     border-radius:3.05rem;
 }
@@ -70,6 +76,7 @@
     display: inline-block;
     padding:.9375rem 1.25rem;
     font-size:1rem;
+    font-size: clamp(16px, calc(16px + (23 - 16) * (100vw - 768px)/(1920 - 768)), 23px);
     line-height:normal;
     border-radius:4.875rem;
     text-decoration:none;

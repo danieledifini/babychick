@@ -5,19 +5,35 @@
         opacity:.8;    
     }
 
-    h3{
-        margin-top:3.1875rem;
-    }
-
     .default-text{
         margin-top:3.125rem;
     }
 
-    .btn-container{
-        margin-top:1.875rem;
+    @media (max-width: 61.9375rem) {
+        .btn-container{
+            margin-top:1.875rem;
+        }
+
+        .text-container{
+            max-width:90%;
+        }
+
+        h3{
+            margin-top:3.1875rem;
+        }
     }
 
-    .text-container{
-        max-width:90%;
+    @media (min-width: 62rem) {
+        .text-container{
+            max-width:60%;
+        }
+
+        h3{
+            margin-top:6.25rem;
+        }
+
+        .btn-container{
+            margin-top:6rem;
+        }
     }
 }

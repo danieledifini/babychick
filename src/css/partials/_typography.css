@@ -113,16 +113,22 @@ h1,h2,h3,h4,h5,h6{
 .h16{
     font-size:1rem;
     line-height:normal;
+
+    font-size: clamp(16px, calc(16px + (56 - 16) * (100vw - 768px)/(1920 - 768)), 56px);
 }
 
 .h19{
     font-size:1.1875rem;
     line-height:normal;
+
+    font-size: clamp(19px, calc(19px + (28.8 - 19) * (100vw - 768px)/(1920 - 768)), 28.8px);
 }
 
 .h20{
     font-size:1.2631rem;
     line-height:normal;
+
+    font-size: clamp(20px, calc(20px + (77 - 20) * (100vw - 768px)/(1920 - 768)),77px);
 }
 
 .h25{
@@ -133,36 +139,53 @@ h1,h2,h3,h4,h5,h6{
 .h28{
     font-size:1.75rem;
     line-height:normal;
+
+    font-size: clamp(28px, calc(28px + (44 - 28) * (100vw - 768px)/(1920 - 768)), 44px);
+
+    &.bigger-desktop{
+        font-size: clamp(28px, calc(28px + (99 - 28) * (100vw - 768px)/(1920 - 768)), 99px);
+    }
+    
 }
 
 .h33{
-    font-size:2.0625rem;
     line-height:1.515;
+    font-size:2.0625rem;
+    font-size: clamp(33px, calc(33px + (59 - 33) * (100vw - 768px)/(1920 - 768)),59px);
 }
 
 .h36{
     font-size:2.2794rem;
     line-height:normal;
+
+    font-size: clamp(36px, calc(36px + (77 - 36) * (100vw - 768px)/(1920 - 768)),77px);
 }
 
 .h38{
     font-size:2.375rem;
     line-height:normal;
+
+     font-size: clamp(38px, calc(38px + (77 - 38) * (100vw - 768px)/(1920 - 768)), 77px);
 }
 
 .h41{
     font-size:2.5625rem;
     line-height:normal;
+
+    font-size: clamp(41px, calc(41px + (87 - 41) * (100vw - 768px)/(1920 - 768)),87px);
 }
 
 .h44{
     font-size:2.7931rem;
+
+    font-size: clamp(44px, calc(44px + (77 - 44) * (100vw - 768px)/(1920 - 768)),77px);
     line-height:normal;
 }
 
 .h48{
     font-size:3rem;
     line-height:normal;
+    font-size: clamp(48px, calc(48px + (96.6 - 48) * (100vw - 768px)/(1920 - 768)), 96.6px);
 }
 
 .h49{
@@ -173,6 +196,8 @@ h1,h2,h3,h4,h5,h6{
 .h59{
     font-size:3.7406rem;
     line-height:1;
+
+    font-size: clamp(59px, calc(59px + (228 - 59) * (100vw - 768px)/(1920 - 768)), 228px);
 }
 
 .h62{
@@ -183,10 +208,13 @@ h1,h2,h3,h4,h5,h6{
 .h72{
     font-size:4.455rem;
     line-height:normal;
+
+    font-size: clamp(71.3px, calc(71.3px + (144 - 71.3) * (100vw - 768px)/(1920 - 768)), 144px);
 }
 
 .h79{
     font-size:4.9375rem;
+    font-size: clamp(79px, calc(79px + (122 - 79) * (100vw - 768px)/(1920 - 768)), 122px);
     line-height:normal;
 }
 
@@ -201,30 +229,43 @@ h1,h2,h3,h4,h5,h6{
 .standard-text{
     font-size:1rem;
     line-height: normal;
+
+    font-size: clamp(16px, calc(16px + (33 - 16) * (100vw - 768px)/(1920 - 768)),33px);
 }
 
 .large-text{
     font-size:1rem;
     line-height: normal;
 
+    font-size: clamp(16px, calc(16px + (40 - 16) * (100vw - 768px)/(1920 - 768)),40px);
+
     &.nocturno{
         font-size:1.375rem;
+
+        font-size: clamp(22px, calc(22px + (44 - 22) * (100vw - 768px)/(1920 - 768)),44px);
     }
+    
 }
 
 .medium-text{
     font-size:1rem;
     line-height: normal;
+
+    font-size: clamp(16px, calc(16px + (30 - 16) * (100vw - 768px)/(1920 - 768)),30px);
 }
 
 .small-text{
     font-size:1rem;
     line-height: normal;
+
+    font-size: clamp(16px, calc(16px + (22.5 - 16) * (100vw - 768px)/(1920 - 768)),22.5px);
 }
 
 .very-small-text{
     font-size:.8812rem;
     line-height:normal;
+
+    font-size: clamp(14px, calc(14px + (20.6 - 14) * (100vw - 768px)/(1920 - 768)), 20.6px);
 }
 
 .default-text{
@@ -235,6 +276,10 @@ h1,h2,h3,h4,h5,h6{
     p, ol, ul{
         & + *{
             margin-top:.9375rem;
+
+            @media (min-width: 62rem) {
+                margin-top:1.5625rem;
+            }
         }
     }
 
@@ -267,4 +312,6 @@ h1,h2,h3,h4,h5,h6{
 .p22{
     font-size:1.3613rem;
     line-height:normal;
+
+    font-size: clamp(21.7px, calc(21.7px + (44 - 21.7) * (100vw - 768px)/(1920 - 768)), 44px);
 }
