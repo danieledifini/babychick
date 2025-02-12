@@ -13,6 +13,10 @@
     .image-container{
         margin-left:calc(var(--gutter) * -1);
         width:calc(100% + (var(--gutter) * 2));
+
+        img{
+            min-width:100%;
+        }
     }
 
     .text-container{

@@ -1,27 +1,55 @@
 .journey{
     padding-top:3.5rem;
-    overflow:hidden;
+    
 
     &:after{
-        position:absolute;
-        bottom:0;
         height:6.0625rem;
-        left:0;
-        right:0;
         content:'';
         background-color:var(--brown3);
         z-index:0;
     }
 
-    .text-container{
-        max-width:75%;
-       
+    @media (max-width: 767px) {
+        overflow:hidden;
+
+        &:after{
+            position:absolute;
+            bottom:0;
+            left:0;
+            right:0;
+        }    
+
+        .text-container{
+            max-width:75%;
+        }
+
+        .main-image{
+            width:90%;
+            margin-left:12%;
+            margin-top:-2.5rem;
+        }
     }
 
+    @media (min-width: 48rem) {
+
+        .text-container{
+            max-width:60%;
+            margin-left:5%;
+            margin-bottom:3.5rem;
+        }
+
+        .main-image{
+            position:absolute;
+            width:auto;
+            height:140%;
+            right:-15%;
+            bottom:0;
+        }
+    }
+
+    
     .main-image{
-        width:90%;
-        margin-left:12%;
-        margin-top:-2.5rem;
         z-index:1;
     }
+    
 }

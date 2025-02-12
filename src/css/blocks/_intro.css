@@ -22,9 +22,16 @@
 
     .btn-container{
         margin:2.5rem auto;
-        flex-direction:column;
         align-items:center;
-        row-gap:1.5rem;
+         
+        @media (max-width: 47.9375rem) {
+            flex-direction:column;
+            row-gap:1.5rem;
+        }
+
+        @media (min-width: 48rem) {
+            column-gap:2.1875rem;
+        }
     }
 
     .default-text{

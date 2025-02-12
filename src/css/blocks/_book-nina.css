@@ -16,4 +16,8 @@
     .btn-container{
         margin-top:1.875rem;
     }
+
+    .text-container{
+        max-width:90%;
+    }
 }

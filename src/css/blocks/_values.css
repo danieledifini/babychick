@@ -3,30 +3,62 @@
 
     .values-list{
         margin: 0 auto;
-        max-width:50%;
+
+        @media (max-width: 47.9375rem) {
+            max-width:50%;
+        }
+
+        @media (min-width: 48rem) {
+            flex-direction:row;
+            align-items:center;
+            justify-content:center;
+        }
     }
 
     li {
         &:not(&:last-child){
-            p{
+
+            &:after{
+                position:absolute;
+                background-color:var(--black);
+                content:'';
+            }
+        }
+
+        @media (max-width: 47.9375rem) {
+            &:not(&:last-child){
                 padding-bottom:.9375rem;
 
                 &:after{
-                    position:absolute;
                     bottom:0;
                     width:7.5rem;
                     height:.0625rem;
                     left:50%;
                     transform:translateX(-50%);
-                    background-color:var(--black);
-                    content:'';
                 }
             }
+
+            & + li{
+                margin-top:.9375rem;
+            } 
         }
 
-        & + li{
-            margin-top:.9375rem;
-        }   
+        @media (min-width: 48rem) {
+            &:not(&:last-child){
+                padding-right:3.75rem;
+
+                &:after{
+                    right:0;
+                    width:.0625rem;
+                    top:0;
+                    bottom:0;
+                }
+            }
+
+            & + li{
+                margin-left:39px;
+            } 
+        }
     }
 
     span + p{

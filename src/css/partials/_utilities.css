@@ -8,6 +8,7 @@ picture,img{
     left:0;
     width:100%;
     height:100%;
+    overflow:hidden;
 
     img{
         position: absolute;
@@ -53,7 +54,7 @@ picture,img{
 }
 
 .d-none-mobile{
-    @media (max-width: 48rem) {
+    @media (max-width: 61.9375rem) {
         display:none;
         visibility:hidden;
     }
