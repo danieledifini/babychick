@@ -7,5 +7,10 @@
         --padding:clamp(50px, calc(50px + (100 - 50) * (100vw - 768px)/(1920 - 768)), 100px);
 
         padding:var(--padding) 0;
+
+        .text-container{
+            max-width:70%;
+            margin:0 auto;
+        }
     }
 }

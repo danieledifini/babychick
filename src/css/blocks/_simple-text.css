@@ -4,8 +4,17 @@
     }
 
     @media (min-width: 62rem) {
-        --padding:clamp(60px, calc(60px + (180 - 60) * (100vw - 768px)/(1920 - 768)), 180px);
+        --padding:clamp(60px, calc(60px + (160 - 60) * (100vw - 768px)/(1920 - 768)), 160px);
 
         padding:var(--padding) 0;
+
+        .text-container{
+            max-width:70%;
+            margin:0 auto;
+        }
+
+        &.with-padding-bottom{
+            padding-bottom:calc(((var(--containerW) * .65) * 0.35) + var(--padding));
+        }
     }
 }

@@ -1,5 +1,7 @@
 .title-text{
-    
+    h2{
+        line-height:normal;
+    }
 
     @media (max-width: 61.9375rem) {
         padding:3.75rem 0;
@@ -16,6 +18,11 @@
 
         h2{
             margin-bottom:2.8125rem;
+        }
+
+        .text-container{
+            max-width:65%;
+            margin:0 auto;
         }
     }
 }
