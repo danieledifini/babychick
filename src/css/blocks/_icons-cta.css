@@ -1,0 +1,52 @@
+.icons-cta{
+    .icons-list{
+        display:flex;
+
+        img{
+            max-width:4.5rem;
+            margin-bottom:1.5625rem;
+        }
+
+        li{
+            align-items:center;
+        }
+    }
+
+    @media (max-width: 61.9375rem) {
+        padding:3.125rem 0;
+
+        .icons-list{
+            margin-top:3.125rem;
+            flex-direction:column;
+            row-gap:1.875rem;
+        }
+
+        .large-text{
+            margin:2.5rem 0;
+        }
+
+        .btn-container{
+            margin-top:3.125rem;
+        }
+    }
+
+    @media (min-width: 62rem) {
+        --padding:clamp(50px, calc(50px + (150 - 50) * (100vw - 768px)/(1920 - 768)), 150px);
+        --margin:clamp(40px, calc(40px + (110 - 40) * (100vw - 768px)/(1920 - 768)), 110px);
+
+        padding:var(--padding) 0;
+
+        .icons-list{
+            margin-top:clamp(50px, calc(50px + (90 - 50) * (100vw - 768px)/(1920 - 768)), 90px);
+            column-gap:clamp(30px, calc(30px + (60 - 30) * (100vw - 768px)/(1920 - 768)), 60px);
+        }
+
+        .large-text{
+            margin:var(--margin) 0;
+        }
+
+        .btn-container{
+            margin-top:clamp(50px, calc(50px + (140 - 50) * (100vw - 768px)/(1920 - 768)), 140px);
+        }
+    }
+}

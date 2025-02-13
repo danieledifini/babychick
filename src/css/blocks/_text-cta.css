@@ -1,0 +1,19 @@
+.text-cta{
+    @media (max-width: 61.9375rem) {
+        padding:3.125rem 0;
+
+        .btn-container{
+            margin-top:1.875rem;
+        }
+    }
+
+    @media (min-width: 62rem) {
+        --padding:clamp(50px, calc(50px + (110 - 50) * (100vw - 768px)/(1920 - 768)), 110px);
+
+        padding:var(--padding) 0;
+
+        .btn-container{
+            margin-top:3.5rem;
+        }
+    }
+}

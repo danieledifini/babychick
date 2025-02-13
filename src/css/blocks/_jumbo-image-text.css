@@ -1,0 +1,26 @@
+.jumbo-image-text{
+    .belleaurore{
+        margin-top:1.25rem;
+        display:block;
+    }
+
+    @media (max-width: 61.9375rem) {
+        padding-top:2.5rem;
+
+        h1{
+            margin-bottom:2.5rem;
+        }
+
+        .text-container{
+            padding:2.5rem 0;
+        }
+    }
+
+    @media (min-width: 62rem) {
+         padding-top:clamp(40px, calc(40px + (160 - 40) * (100vw - 768px)/(1920 - 768)), 160px);
+
+        h1{
+            margin-bottom:clamp(40px, calc(40px + (160 - 40) * (100vw - 768px)/(1920 - 768)), 160px);
+        }
+    }
+}

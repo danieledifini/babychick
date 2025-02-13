@@ -24,4 +24,15 @@
 @import 'blocks/_chickchat.css';
 @import 'blocks/_subscribe.css';
 
+/* ALTRI TEMPLATE */
+@import 'blocks/_jumbo-image-text.css';
+@import 'blocks/_simple-text.css';
+@import 'blocks/_text-cta.css';
+@import 'blocks/_title-text.css';
+@import 'blocks/_icons-cta.css';
+@import 'blocks/_image-text-right.css';
+@import 'blocks/_jumbo-title-image.css';
+@import 'blocks/_simple-bw-text.css';
+@import 'blocks/_image-text-cta.css';
+
 @import 'components/_btn.css';

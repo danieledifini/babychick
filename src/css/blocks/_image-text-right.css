@@ -1,0 +1,33 @@
+.image-text-right{
+    @media (max-width: 61.9375rem) {
+        display: flex;
+        flex-direction: column;
+        position:relative;
+
+        .text-container{
+            order:2;
+            padding:6.25rem 0 3.75rem ;
+        }
+
+        > .container-wrapper{
+            order:1;
+            position:absolute;
+            z-index:1;
+            width:100%;
+            top:1.875rem;
+        }
+
+        .image-container{
+            order:3;
+        }
+    }
+
+    @media (min-width: 62rem) {
+        .text-container{
+            
+            --padding:clamp(60px, calc(60px + (150 - 60) * (100vw - 768px)/(1920 - 768)), 150px);
+
+            padding:var(--padding) 0;
+        }
+    }
+}

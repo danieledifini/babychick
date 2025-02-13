@@ -40,6 +40,7 @@
         .video-list{
             display:flex;
             column-gap:1.625rem;
+            justify-content: center;
         }
     }
 }

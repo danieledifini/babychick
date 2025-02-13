@@ -81,6 +81,15 @@
                 width:45%;
                 margin-left:-2%;
                 margin-bottom:-3%;
+                
+            }
+        }
+    }
+
+    @media (min-width:106.25rem) {
+        .upper-chickchat{
+            .outer-image-container{
+                left:53%;
             }
         }
     }

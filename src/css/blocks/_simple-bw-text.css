@@ -1,0 +1,11 @@
+.simple-bw-text{
+    @media (max-width: 61.9375rem) {
+        padding:3.125rem 0;
+    }
+
+    @media (min-width: 62rem) {
+        --padding:clamp(50px, calc(50px + (100 - 50) * (100vw - 768px)/(1920 - 768)), 100px);
+
+        padding:var(--padding) 0;
+    }
+}
