@@ -17,7 +17,7 @@
             column-gap:4.0625rem;
         }
 
-        @media (min-width: 62rem) {
+        @media (min-width: 68.75rem) {
             grid-template-columns: repeat(3,minmax(0, 1fr));
             padding:0 5%;
         }

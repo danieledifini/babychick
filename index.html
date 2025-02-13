@@ -622,7 +622,7 @@ We can help guide you through:</p>
 
                   Contact Nina to arrange a FREE 30-minute video consultation to discuss your desires and needs.</p>
                </div>
-               <img class="main-image pos-rel "  src="src/img/screen.png" alt="Screen">
+               <img class="main-image pos-rel d-none-desktop"  src="src/img/screen.png" alt="Screen">
                <div class="btn-container ">
                   <a href="#" class="medium-btn bg-bm3 simple-hover">Schedule a Consultation</a>
                </div>
@@ -781,7 +781,14 @@ Whether you’re planning a keynote for a large conference or a cozy session for
         <section class="chickchat  bg-v">
          <div class="upper-chickchat pos-rel">
           <div class="bg-container ">
-            <img class="img-cover" src="src/img/bg-chickchat.jpg" alt="Background Chickchat">
+            
+
+            <picture>
+              <source
+              srcset="src/img/bg-chickchat.jpg"
+              media="(max-width: 991px)" />
+              <img class="img-cover" src="src/img/bg-chickchat.png" alt="Background Chickchat">
+          </picture>
           </div>
           <div class="container-wrapper pos-rel">
             <div class="text-container mar-0-auto">
@@ -802,8 +809,8 @@ Whether you’re planning a keynote for a large conference or a cozy session for
          <div class="subscribe pos-rel">
           <div class="container-wrapper">
             <div class="text-container text-white mar-0-auto">
-              <h3 class="uppercase bold h25">Subscribe now</h3>
-              <div class="large-text default-text">
+              <h3 class="uppercase bold h19">Subscribe now</h3>
+              <div class="medium-text default-text">
                 <p>Listen on your
                   favorite platform</p>
               </div>
